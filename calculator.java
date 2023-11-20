@@ -4,12 +4,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Stack;
 
-public class PostfixStandardFix extends JFrame {
+public class Calculator extends JFrame {
     private JTextField operationTextField;
     private JRadioButton convertToPostfixRadioButton;
     private JButton calculateButton;
 
-    public PostfixStandardFix() {
+    public Calculator() {
         setTitle("Infix and Postfix Calculator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 200);
